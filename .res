@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# TMG196 benchmark set by Jan Řezác.
-# MP2/cc-pVTZ geometries taken from original Publication.
-# revised in May 2023 by CP/AH, new reference values by AH (2023).
+# solvMPCONF196 - A solvated version of the MPCONF196 benchmark containing conformations of biomolecules.
+# J. Comput. Chem. 2024, 45(7), 419. https://doi.org/10.1002/jcc.27248.
+# MP2/cc-pVTZ solute geometries taken from original Publication by J. Řezáč.
+# Water optimized with r2SCAN-3c including CPCM water model.
 # Samller molecules on "PNO-LCCSD(T)-F12/ AVQZ' tight" quality,
 # Larger Molecules on "PNO-LCCSD(T)-F12/ AVTZ'" scaled triples quality.
 
